@@ -31,4 +31,8 @@ export class HeroDetailComponent {
       .subscribe(hero => this.hero = hero);
   }
 
+  goBack(): void {
+    this.location.back();
+  }
+
 }
